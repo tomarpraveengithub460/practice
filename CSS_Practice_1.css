@@ -1,0 +1,65 @@
+*{
+    background-color: #D4F1F4;
+    margin: 5px;
+    padding: 5px;
+}
+#main_heading{
+    text-align: center;
+    color: #05445E;
+    align-content: center;
+}
+#image{
+    border-radius: 35%;
+}
+.quote{
+    color: tomato;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#para
+{
+    text-align: justify;
+    line-height:  30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 5px solid black;
+    border-radius: 25px;
+    padding: 20px;
+}
+h3{
+    font-weight: bolder;
+}
+#last{
+    text-align: center;
+}
+
+
+button:hover{
+        color: red;
+        background-color: aqua;
+    }
+button:active{
+    color: green;
+    background-color: white;
+}
+
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+
+#para:nth-of-type(n){
+    color:green;
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+}
+
+#Qut{
+    align-self: center;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
